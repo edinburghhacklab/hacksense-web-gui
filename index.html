@@ -15,6 +15,18 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <style>
+        .show-grid [class^=col-]
+        {
+            border: 1px solid grey;
+        }
+        
+        .panel
+        {
+            padding:0 15px;
+        }
+    </style>
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -29,7 +41,36 @@
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div class="tab-pane active" id="home">home pane</div>
+      <div class="tab-pane active" id="home">
+          <div class="show-grid panel container-fluid">
+              <div class="row">
+                <div class="col-xs-3">
+                    A thing
+                </div>
+                <div class="col-xs-3">
+                    A thing
+                </div>
+                <div class="col-xs-3">
+                    A thing
+                </div>
+                <div class="col-xs-3">
+                    A thing
+                </div>
+                <div class="col-xs-3">
+                    A thing
+                </div>
+                <div class="col-xs-3">
+                    A thing
+                </div>
+                <div class="col-xs-3">
+                    A thing
+                </div>
+                <div class="col-xs-3">
+                    A thing
+                </div>
+              </div>
+          </div>
+      </div>
       <div class="tab-pane" id="profile">other shit</div>
       <div class="tab-pane" id="messages">more shit</div>
       <div class="tab-pane" id="settings">fish</div>
